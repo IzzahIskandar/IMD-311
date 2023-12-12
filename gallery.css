@@ -1,0 +1,74 @@
+marquee{
+  font-size: 15px;
+  font-weight: 20;
+  color: #A74366;
+  font-family: arial;
+}
+
+ul {
+  font-family: arial;
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+  overflow: hidden;
+  background-color: #F368B6;
+}
+
+li a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li {
+  float: right;
+  color:black;
+  font-size: 20px
+}
+
+body {
+  background-image: 
+  url('image/background.png');
+  width="60%"
+  hight=40%
+}
+
+/* Change the link color to #DD8A7D on hover */
+li a:hover {
+  background-color: #FAC0D0;
+}
+
+
+
+table, tr, td {
+  border: none;
+}
+
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+
+
+h1 {
+  font-family: cooper black;
+  text-align: center;
+  color: #A74366;
+}
+
+
+
+
+
+
+
+
+
+
+
+

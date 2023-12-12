@@ -1,0 +1,130 @@
+marquee{
+  font-size: 15px;
+  font-weight: 20;
+  color: #A74366;
+  font-family: arial;
+}
+
+ul {
+  font-family: arial;
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+  overflow: hidden;
+  background-color: #F368B6;
+}
+
+li a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li {
+  float: right;
+  color:black;
+  font-size: 20px
+}
+
+h1 {
+  font-family: cooper black;
+  text-align: center;
+  color: #A74366;
+}
+
+
+body {
+  background-image: 
+  url('image/background.png');
+  width="60%"
+  hight=40%
+}
+
+
+/* Change the link color to #DD8A7D on hover */
+li a:hover {
+  background-color: #FAC0D0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #FEFCCE;
+  padding: 30px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+h2 {
+  font-family: cooper black;
+  text-align: center;
+  color: #98365F;
+  font-size: 20px;
+}
+
+hr{
+   height: 3px;
+   background-color: #98365F;
+   border: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
